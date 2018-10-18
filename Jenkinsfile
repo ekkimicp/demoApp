@@ -3,6 +3,6 @@
 @Library('MicroserviceBuilder') _
 microserviceBuilderPipeline {
     image = 'modresortswar'
-    mvnCommands = 'clean package'
+    mvnCommands = '--version'
     test='false'
 }
